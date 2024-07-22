@@ -1,0 +1,56 @@
+#root,html,body{
+    margin: 0;
+    padding: 0;
+    height:100vh ;
+    box-sizing: border-box;
+}
+.app{
+    height: 100%;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url('C:\Users\sdshi\Desktop\advice_project\src\images\re.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    background-color: rgb(184, 245, 245);
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 2px;
+    box-shadow: 10px 10px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    font-family: "Dancing Script", cursive;
+}
+.button{
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform:uppercase;
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+    background-color: rgb(11, 224, 153);
+    border: 1px solid rgba(22,76,1670.6);
+}
+@media only screen and(max-width:600px){
+    .card{
+        width: 80%;
+        height: 30%;
+    }
+}
